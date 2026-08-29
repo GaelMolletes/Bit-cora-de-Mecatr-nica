@@ -11,4 +11,4 @@ Este soy yo jaja
 Me gusta hacer de todo la verdad, aunque lo qu más más me gusta es jugar videojuegos probablemente.
 
 
-**La verdad espero sacar el promedio que traigo de preparatoria, que es 9, pero, con que pueda mantener la beca que me dieron, estoy contento.**
+**La verdad espero sacar el promedio que traigo de preparatoria, que es 9, pero, con que pueda mantener la beca que me dieron, estoy contento.** ssss
