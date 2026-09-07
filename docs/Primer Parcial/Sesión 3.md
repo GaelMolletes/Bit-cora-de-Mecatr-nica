@@ -20,6 +20,6 @@ Despúes de los blinkers, Oliver nos explico el como funciona el **Monitor seria
 ### Monitor Serial Bluetooth
 Por último, debimos hacer la práctica del momnitor serial pero esta vez usando el celular. Gracias al arduino ESP 32, podemos hacer que el monitor serial se conecte esta vez al celular via Blueetoth, y mandar señales desde ahí, por lo que la práctica ahora se trato de lograr hacer que, desde el celular mandabas la señalm de encendido, y un LED se encendía, madnabas la señla de apagado, y un LED se apagaba. 
 
-**[Video de como terminó funcionando](https://youtube.com/shorts/SqflYt2NLWU?si=gSgfeWqXUEN6f58n)**
+**[Video de como terminó funcionando](https://youtube.com/shorts/SqflYt2NLWU?si=5AUmZ-960CdAa0LL)**
 
 Eso fue basicamente todo por el día de hoy. La verdad, tengo muy poca evidencia en video y en fotografía, porque mi compañero y yo estabamos tan memtidos en la práctica que apenas recordamos a mitad de clase que se debe de documentar todo lol que veamos. La próxima sesión ya tendré todo mejor organizado.
