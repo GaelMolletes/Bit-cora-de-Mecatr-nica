@@ -6,6 +6,8 @@ Despúes nos explicaron rapidamente lo que era un capacitor y un contador, para 
 ![Diagrama del sistema](../recursos/imgs/proto1.jpeg)
 ![Diagrama del sistema](../recursos/imgs/proto2.jpeg)
 
+**[Video de como terminó funcionando](https://youtu.be/UsT4oZyKR9M?si=vtt0DOX0-TxXR8Vc)**
+
 
 A mi pareja y y a mi nos costo bastante armar el proto, y eso que se supone yo ya tengo experiencia armandolo. Al final resulta que habíamos conectado mal un cable, y si pudo funcionar al final.
 

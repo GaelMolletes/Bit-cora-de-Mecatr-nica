@@ -7,6 +7,8 @@ Como todo buen ingeniero, Oliver nos dio unas protoboards, leds y resistencias p
 ![Diagrama del sistema](../recursos/imgs/Blinker.jpeg)
 
 
+
+
 **Hay que aclarar que nosotros no subimos el codigo a un arduino UNO normal, que es el mas común, si no, que lo subimos a una version llamada ESP 32, uno que yo nunca había usado antes, pero considero que es mejor que el arduino normal, pues tiene ya batería integrada, conexión a Bluetooth e internet, y llo mas importante en mi opinión, es mucho más pequeño, al igual que se puede insertar en una protoboard.**
 Algo así mas o menos:
 
@@ -18,6 +20,6 @@ Despúes de los blinkers, Oliver nos explico el como funciona el **Monitor seria
 ### Monitor Serial Bluetooth
 Por último, debimos hacer la práctica del momnitor serial pero esta vez usando el celular. Gracias al arduino ESP 32, podemos hacer que el monitor serial se conecte esta vez al celular via Blueetoth, y mandar señales desde ahí, por lo que la práctica ahora se trato de lograr hacer que, desde el celular mandabas la señalm de encendido, y un LED se encendía, madnabas la señla de apagado, y un LED se apagaba. 
 
-**[Video de como terminó funcionando](https://youtu.be/UsT4oZyKR9M?si=vtt0DOX0-TxXR8Vc)**
+**[Video de como terminó funcionando](https://youtube.com/shorts/SqflYt2NLWU?si=gSgfeWqXUEN6f58n)**
 
-Eso fue basicamente todo por el día de hoy. La verdad, tengo muy poca evidencia en video y en fotografía, porque mi compañero y yo estabammmos tan memtidos en la práctica que apenas recordamos a mitad de clase que se debe de documentar todo lol que veamos. La próxima sesión ya tendré todo mejor organizado.
+Eso fue basicamente todo por el día de hoy. La verdad, tengo muy poca evidencia en video y en fotografía, porque mi compañero y yo estabamos tan memtidos en la práctica que apenas recordamos a mitad de clase que se debe de documentar todo lol que veamos. La próxima sesión ya tendré todo mejor organizado.
