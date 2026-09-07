@@ -1,4 +1,5 @@
-site_name: Plantilla para Documentación
+site_name: Hola, esta es mi bitacora de Mecatrónica
+site_description: (tambien conocida como la tipica primera pagina web jaja)
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

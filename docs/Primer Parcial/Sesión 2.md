@@ -14,7 +14,7 @@ Al finalizar, el profesor conecto el osciloscópio al circuito hecho, para poder
 ![Diagrama del sistema](../recursos/imgs/oscilo.jpeg)
 # (Ahí no se ve mucho, eso es unicamente ruído)
 
-Eso fue todo por la práctica del día de hoy. Publicaría videos, pero todavía no se como, para la siguiente sesión ya debería haber aprendido el como.
+Eso fue todo por la práctica del día de hoy. Publicaría videos, pero todavía no se como, para la siguiente sesión ya debería haber aprendido el cómo.
 
 
 
