@@ -1,5 +1,5 @@
-site_name: Hola, esta es mi bitacora de Mecatrónica
-site_description: (tambien conocida como la tipica primera pagina web jaja)
+site_name: Hola, esta es mi primera pagina web...Y ahora que?
+site_description: (tambien conocida como mi primera pagina web)
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -30,7 +30,7 @@ theme:
   highlightjs: true 
   palette:
       - scheme: default
-        primary: red
+        primary: Blue
 
   features:
     - content.code.copy
