@@ -1,5 +1,6 @@
 site_name: Hola, esta es mi primera pagina web...Y ahora que?
 site_description: (tambien conocida como mi primera pagina web)
+site_url: https://gaelmolletes.github.io/Bit-cora-de-Mecatr-nica/
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
