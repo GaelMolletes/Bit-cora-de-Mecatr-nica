@@ -5,10 +5,11 @@
 
 
 
-![Diagrama del sistema](../recursos/imgs/yo.jpeg)
+![Diagrama del sistema](recursos/imgs/yo.jpeg)
+
 Este soy yo jaja
 
-Me gusta hacer de todo la verdad, aunque lo qu más más me gusta es jugar videojuegos probablemente.
+Me gusta hacer de todo la verdad, aunque lo que más más me gusta es jugar videojuegos,probablemente.
 
 
 **La verdad espero sacar el promedio que traigo de preparatoria, que es 9, pero, con que pueda mantener la beca que me dieron, estoy contento.** 
