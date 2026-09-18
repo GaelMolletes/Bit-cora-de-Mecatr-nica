@@ -5,7 +5,7 @@
 
 
 
-![Diagrama del sistema](../recursos/imgs/yo.jpeg)
+
 Este soy yo jaja
 
 Me gusta hacer de todo la verdad, aunque lo qu más más me gusta es jugar videojuegos probablemente.
