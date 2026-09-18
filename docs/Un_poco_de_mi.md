@@ -5,7 +5,7 @@
 
 
 
-![Diagrama del sistema](recursos/imgs/yo.jpeg)
+![Foto de Gael](recursos/imgs/foto-yo.jpeg)
 
 Este soy yo jaja
 
