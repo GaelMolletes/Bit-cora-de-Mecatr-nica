@@ -5,6 +5,7 @@
 
 
 
+![Diagrama del sistema](../recursos/imgs/yo.jpeg)
 
 Este soy yo jaja
 
