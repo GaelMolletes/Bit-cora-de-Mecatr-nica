@@ -29,7 +29,7 @@ theme:
   name: material
   highlightjs: true 
   palette:
-      - scheme: default
+      - scheme: slate
         primary: Blue
 
   features:
