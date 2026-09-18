@@ -16,7 +16,6 @@ Por ultimo, instalamos Visual code, que como memncione antes, permite programar 
 
 El profesor, al ya tener todo el setup hecho y explicado, nos enseño a colocar imágenes, cambiar las letras, (como poner títulos, subtítulos, negritas y así.) y por último, nos enseño como agregar "entradas" a la bitácora con el tipo de archivo MC
 
-[Aquí esta el primer archivo que hice](#Un_poco_de_mi)
-
+[Aquí esta el primer archivo que hice](../Un_poco_de_mi.md)
 
 Eso fue basicamente todo de la sesión 1, la verdad, estoy bastante emocionado de empezar a realizar circuitos y progrmaciones básicas.
