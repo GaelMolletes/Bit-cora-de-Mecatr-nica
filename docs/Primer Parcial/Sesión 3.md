@@ -4,6 +4,40 @@ El día de hoy, Oliver nos enseño lo básico de los arduinos y del programa par
 ### Blinker
 Como todo buen ingeniero, Oliver nos dio unas protoboards, leds y resistencias para hacer nuestro primer blinker jaja. Mi compañero Andrés y yo hicimos el blinker bastante rápido, con un intervalo de 500ms, (5 segundos). Luego, le agregamos otro led para que intercalara el parpadeo con el anterior, haciendo que uno estuviera encendido y el otro no, como sirena de policía.
 
+
+**Primer Blinker**
+
+```arduino
+void setup() {
+  pinMode(2, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(2, HIGH);
+  delay(500);
+  digitalWrite(2, LOW);
+  delay(500);
+}
+```
+
+**Segundo Blinker**
+```arduino
+void setup() {
+  pinMode(2, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(2, HIGH);
+  digitalWrite(4, LOW);
+  delay(500);
+
+  digitalWrite(2, LOW);
+  digitalWrite(4, HIGH);
+  delay(500);
+}
+```
+
 ![Diagrama del sistema](../recursos/imgs/Blinker.jpeg)
 
 
@@ -17,8 +51,59 @@ Algo así mas o menos:
 ### Monitor Serial
 Despúes de los blinkers, Oliver nos explico el como funciona el **Monitor serial**, que es una manera de leer información que esta mandando el Arduino. NOs explico como se instala en el Setup, que el valor mas compun a utilizar en el monitor es de 9600, y el como utilizarlo dentro del codigo en Loop. Después, nos puso a hacer una práctica, donde si presionabamos un boton, el monitor serial decia que se estaba presiondnado, y que cuando no se presionaba, el monitor serial decía que no se estaba presionando. A mim compañero y a mí se nos facilitó bastante la verdad.
 
+**Codigo Usado**
+
+```arduino
+void setup() {
+  pinMode(2, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int estadoBoton = digitalRead(2);
+
+  if (estadoBoton == HIGH) {
+    Serial.println("Se está presionando");
+  } else {
+    Serial.println("No se está presionando");
+  }
+
+  delay(100);
+}
+```
+
 ### Monitor Serial Bluetooth
 Por último, debimos hacer la práctica del momnitor serial pero esta vez usando el celular. Gracias al arduino ESP 32, podemos hacer que el monitor serial se conecte esta vez al celular via Blueetoth, y mandar señales desde ahí, por lo que la práctica ahora se trato de lograr hacer que, desde el celular mandabas la señalm de encendido, y un LED se encendía, madnabas la señla de apagado, y un LED se apagaba. 
+
+**Código usado en el celular**
+
+```arduino
+#include "BluetoothSerial.h"
+
+BluetoothSerial SerialBT;
+
+void setup() {
+  pinMode(2, OUTPUT);
+
+  Serial.begin(9600);
+  SerialBT.begin("ESP32");
+}
+
+void loop() {
+  if (SerialBT.available()) {
+    char señal = SerialBT.read();
+
+    if (señal == '1') {
+      digitalWrite(2, HIGH);
+    }
+
+    if (señal == '0') {
+      digitalWrite(2, LOW);
+    }
+  }
+}
+```
+
 
 **[Video de como terminó funcionando](https://youtube.com/shorts/SqflYt2NLWU?si=5AUmZ-960CdAa0LL)**
 

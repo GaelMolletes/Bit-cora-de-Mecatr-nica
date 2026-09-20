@@ -18,4 +18,20 @@ El profesor, al ya tener todo el setup hecho y explicado, nos enseño a colocar 
 
 [Aquí esta el primer archivo que hice](../Un_poco_de_mi.md)
 
+
+**Para poder subir algo a la pagina, se deben de realizar los siguientes commmandos:**
+
+* Git add .
+
+Git add basicammente prepara todos los cambios que realizaste. Si subiste un documento, agregaste texto, etc.
+
+* Git commit -m "mensaje"
+
+Crea un punto de guardado dentro de Git, por si al subir lo nuevo, se quiebra algo, o se borra algo sin querer. Sirve para regresar a un punto seguro donde todo funcionaba.
+* Git push origin main
+
+Este último sube todos los cambios hechos, y el guardado que hayas hecho en commit.
+
+**En dado caso de que no funcione algún comando, asegurate de estar ubicado en la carpeta de github, que en este caso sería "Bit-cora-de-Mecatr-nica". Si no estas en esa ruta, debes de utilizar el comando cd "Bit-cora-de-Mecatr-nica", ya que ese comando te terminaría localizando dentro de la carpeta.**
+
 Eso fue basicamente todo de la sesión 1, la verdad, estoy bastante emocionado de empezar a realizar circuitos y progrmaciones básicas.
