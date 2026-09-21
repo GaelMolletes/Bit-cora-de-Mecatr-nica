@@ -28,6 +28,7 @@ Git add basicammente prepara todos los cambios que realizaste. Si subiste un doc
 * Git commit -m "mensaje"
 
 Crea un punto de guardado dentro de Git, por si al subir lo nuevo, se quiebra algo, o se borra algo sin querer. Sirve para regresar a un punto seguro donde todo funcionaba.
+
 * Git push origin main
 
 Este último sube todos los cambios hechos, y el guardado que hayas hecho en commit.
